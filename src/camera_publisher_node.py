@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+    """
+    This is a Python script that captures video from the default camera (index 0) of the computer 
+    and publishes it as a ROS Image message. It uses the OpenCV library for capturing and processing 
+    the frames and the cv_bridge library for converting the OpenCV images to ROS Image messages. 
+    The captured video frames are continuously displayed in a window until the user presses the 'q' key. 
+    This script can be used as a ROS node to stream camera data to other ROS nodes for further processing or visualization.
+    """
 
 import rospy
 import cv2
